@@ -108,33 +108,8 @@ Lantas mengapa ku masih menaruh hati
 Padahal kutahu kau tlah terikat janji
 Keliru ataukah bukan tak tahu
 Lupakanmu tapi aku tak mau
-Oh wo
-Baru kau sapa kutersipu (tersipu)
-Kau puji lupa amarahku
-Karena kau paling tahu (paling tahu)
-Cara lemahkan hatiku (hatiku)
-Walau tak ada yang pasti
-Yang kau beri hanya mimpi
-Lantas mengapa ku masih menaruh hati
-Padahal kutahu kau t'lah terikat janji
-Keliru ataukah bukan tak tahu
-Lupakanmu tapi aku tak mau
-Pantaskah aku menyimpan rasa cemburu
-Padahal bukan aku yang memilikimu
-Sanggup sampai kapankah ku tak tahu
-Akankah akal sehat menyadarkanku
-Oh wo
-Uh
-Lantas mengapa ku masih menaruh hati
-Lantas mengapa ku masih menaruh hati
-Padahal kutahu kau t'lah terikat janji
-Keliru ataukah bukan tak tahu
-Lupakanmu tapi aku tak mau (pantaskah ku)
-Pantaskah aku (ku menyimpan)
-Untuk menyimpan (rasa cemburu)
-Karna bukan aku yang milikimu
-Sanggup sampai kapankah ku tak tahu
-Akankah akal sehat menyadarkanku</item>
+
+</item>
         <item>Huuhuh
 Yeah yeah
 uhuh
@@ -162,25 +137,7 @@ Tatapan khas matanya masih yang lama
 Kau ajak bicara
 Seketika kembali ku jatuh cinta
 Sialan dia
-Sakit dan air mata sia-sia
-Melesat tepat di titik kelemahanku
-Letaknya di hati hatiku ini
-Terbaik tetap selalu ada singgasana
-Tempat untuknya
-Sepertinya sama
-Tatapan khas matanya masih yang lama
-Kau ajak bicara
-Seketika kembali ku jatuh cinta
-Sialan dia
-Sakit dan air mata sia-sia
-Dari begitu banyak manusia
-Mengapa lagi-lagi hanya dia
-Malam yang hangat tapi ku terjaga
-Hanyalah dia si pusat kecewa
-Dari begitu banyak manusia
-Mengapa lagi-lagi hanya dia
-Malam yang hangat tapi ku terjaga
-Rindukan dia si pusat kecewa</item>
+</item>
         <item>Masihkah ungu muda
 Warna langit yang paling engkau suka
 Masihkah sering lupa
@@ -236,7 +193,7 @@ Bayang-bayangnya saja
 Jangan minta jatuh cinta
 Luka lamaku juga belum reda
 Beri dulu aku waktu untuk
-Sembuh sendirinya (sembuh sendirinya)
+Sembuh sendirinya
 Jangan minta jatuh cinta
 Sakit sebelumnya masih kurasa
 Beri waktu hingga aku mampu
@@ -246,10 +203,10 @@ Jangan minta jatuh cinta
 Luka lamaku juga belum reda
 Beri dulu aku waktu untuk
 Sembuh sendirinya
-Bukan 'ku tak jatuh cinta
-Bukan 'ku tak jatuh cinta
+Bukan ku tak jatuh cinta
+Bukan ku tak jatuh cinta
 Lelah ulang kesalahan yang sama
-Kuingin kita jalani cinta (kuingin kita)
+Kuingin kita jalani cinta
 Kuingin kita jalani cinta
 Tanpa tergesa aa
 Tanpa tergesa ha aa</item>
@@ -392,58 +349,10 @@ Tak tahu juga
 Entah apa mau Tuhan
 Buatku cinta
 
-Esok lupa Insya Allah
-Tapi tak tahu juga
-Apa ada
-Cara buat ku cabut jantung hati?
-Paling tidak sebulan ini
-Biar tak ingat sakit tahun lalu
-Kau tinggalkanku
-
-Bangun pagi
-Beritahu ku ini semua mimpi
-Tapi sayang ini nonfiksi
-Mau tak mau harus ku hadapi
-Tak bisa lari
-
-Tambah usia
-Tak hilang juga
-Masih terasa sakit karena dia
-Sampai kapannya
-Tak tahu juga
-Entah apa mau Tuhan
-Buatku jatuh cinta
-
-Tak berdaya
-Hanya mau lihat luas langit di balik jendela
-Malas berdansa, pergi ke pesta
-Semakin keras coba lupakannya
-Semakin tak lupa
-
-Senyumanmu terakhir bertemu
-Buatku semakin tak mampu
-
-Tambah usia
-Tak hilang juga
-Masih terasa sakit karena dia
-Sampai kapannya
-Tak tahu juga
-Entah apa mau Tuhan
-Buatku jatuh cinta
-
-Tambah usia
-Tak hilang juga
-Masih terasa sakit karena dia
-Sampai kapannya
-Tak tahu juga
-Entah apa mau Tuhan
-Buatku cinta
-
-Esok lupa Insya Allah
-Tapi tak tahu juga.</item>
+.</item>
     </string-array>
 
-    <array name="data_photo">
+    <integer-array name="data_photo">
         <item>@drawable/gmbr1</item>
         <item>@drawable/gmbr2</item>
         <item>@drawable/gmbr3</item>
@@ -454,5 +363,9 @@ Tapi tak tahu juga.</item>
         <item>@drawable/gmbr8</item>
         <item>@drawable/gmbr9</item>
         <item>@drawable/gmbr10</item>
-    </array>
+    </integer-array>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

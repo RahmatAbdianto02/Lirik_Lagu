@@ -1,5 +1,6 @@
 package com.dicoding.liriklagu.Adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.liriklagu.Data.Singer
+import com.dicoding.liriklagu.DetailLirik.DetailActivity
 import com.dicoding.liriklagu.R
 
 class ListSingerAdapter(private  val listSinger: ArrayList<Singer>) : RecyclerView.Adapter<ListSingerAdapter.ListViewHolder>() {
@@ -31,5 +33,11 @@ class ListSingerAdapter(private  val listSinger: ArrayList<Singer>) : RecyclerVi
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
+
+        holder.itemView.setOnClickListener{
+            val intentDetail = Intent(holder.itemView.context,DetailActivity::class.java)
+            intentDetail.putExtra("key_lirik",listSinger[holder.adapterPosition])
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 }

@@ -24,13 +24,14 @@ class MainActivity : AppCompatActivity() {
         showRecycleList()
     }
 
-    private fun  getListSinger(): ArrayList<Singer>{
+
+    private fun getListSinger(): ArrayList<Singer> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val listSinger = ArrayList<Singer>()
-        for (i in dataName.indices){
-            val singer = Singer(dataName[i],dataDescription[i],dataPhoto.getResourceId(i, -1))
+        for (i in dataName.indices) {
+            val singer = Singer(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
             listSinger.add(singer)
         }
         return listSinger
